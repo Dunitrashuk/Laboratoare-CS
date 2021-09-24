@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audit Policies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="user-input">
+        <label id="auditLabel">Import Audit File:</label>
+        <input type="file" id="audit-file" name="auditFile">
+
+        <label id="saveAudit" for="save-location">Write Saving Name:</label>
+        <input type="text" id="save-location" name="saveAudit">
+    </div>
+
+    <button id="parseButton" onclick="run()">Parse</button>
+
+</body>
+<script src="parser.js"></script>
+</html>
